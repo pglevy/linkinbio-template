@@ -1,0 +1,11 @@
+# Set a plain language title for the site.
+title: Plain Vanilla GitHub Pages
+
+# Write a short description for the site. This is used for "meta description."
+description: Free, easy, low-tech website template using GitHub Pages
+
+# Set the language for the site. Used for "html lang." Default is English.
+lang: en
+
+# Avoid GitHub API authentication when building locally.
+github: [metadata]

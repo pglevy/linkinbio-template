@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="{{site.lang}}">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+
+  <link rel="stylesheet" href="https://unpkg.com/@primer/css/dist/primer.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body class="{% if page.body-style %}{{ page.body-style }}{% else %}p-3{% endif %}">
+  <main class="{% if page.main-style %}{{ page.main-style }}{% else %}container-md markdown-body{% endif %}">
+    {{ content }}
+  </main>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
