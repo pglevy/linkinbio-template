@@ -1,1 +1,6 @@
 /* Add CSS rules to override Primer */
+
+svg {
+    width: 1em;
+    height: 1em;
+}

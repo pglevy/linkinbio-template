@@ -1,0 +1,12 @@
+<ul class="list-style-none f3 container-sm">
+    {% for item in site.data.links %}
+    <li class="mb-3 text-center text-semibold">
+        <a href="{{ item.url }}" class="Link--primary d-block p-3 border rounded-3 color-shadow-small color-bg-subtle">
+            <svg class="bi mr-1" width="16" height="16" fill="currentColor">
+                <use xlink:href="{{ site.baseurl }}/assets/img/bootstrap-icons.svg#{{ item.icon }}"/>
+            </svg><br>
+            {{ item.text }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
