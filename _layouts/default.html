@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{site.lang}}">
+<html lang="{{site.lang}}" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark_dimmed">
 
 <head>
   <meta charset="utf-8">
@@ -11,13 +11,13 @@
 
   <link rel="stylesheet" href="https://unpkg.com/@primer/css/dist/primer.css">
   <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
 </head>
 
-<body class="{% if page.body-style %}{{ page.body-style }}{% else %}p-3{% endif %}">
-  <main class="{% if page.main-style %}{{ page.main-style }}{% else %}container-md markdown-body{% endif %}">
+<body class="p-3">
+  <main class="container-md">
     {{ content }}
   </main>
-  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
