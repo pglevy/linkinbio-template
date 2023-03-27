@@ -1,6 +1,8 @@
 # Link in bio template
 Template for creating a simple “link in bio” site using [GitHub Pages](https://pages.github.com/).
 
+<img width="1032" alt="linkinbio-template-screenshot" src="https://user-images.githubusercontent.com/5177337/227823745-ffb6acf3-fd3d-422f-b118-58ec50a72143.png">
+
 ## Getting started
 
 ### Copying the template and setting up publishing
